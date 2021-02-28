@@ -74,13 +74,13 @@ a:hover{
   transition: top 1s ease-out;
   z-index: 1;
   /*Your code here*/
-  position: relative;
+  position: absolute;
   top: -50px;
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
-a:focus{
-  position: relative;
+.skip a:focus{
+  position: absolute;
   top: 10px;
 }
 
